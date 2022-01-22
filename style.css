@@ -13,6 +13,20 @@ li a:hover{
 }
 
 /* nav pills colour */
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
+/* .nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red !important;
+} */
+
+/* #creatives-tab, #venues-tab {
     background-color: red;
+    color: white;
+} */
+
+#creatives-tab, #venues-tab  {
+    background-color: white !important;
+    color: grey;
+}
+.active#creatives-tab, .active#venues-tab {
+    background-color: grey !important;
+    color: white;
 }
