@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik+Beastly&display=swap');
+@font-face {
+    font-family: Acumin Pro;
+    src: url(FontsFree-Net-aa2woff2.ttf);
+    font-weight: 600;
+  }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Acumin Pro, sans-serif;
 }
 
 nav, .navbar-brand{
@@ -30,3 +35,63 @@ li a:hover{
     background-color: grey !important;
     color: white;
 }
+
+/* colours */
+
+.orange {
+    color:  rgb(255, 171, 95);
+}
+
+.blue {
+    color: rgb(97, 183, 255);
+}
+
+.pink {
+    color:rgb(255, 186, 246);
+}
+
+.green {
+    color: rgb(122, 226, 138);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* buttons */
+/* Container needed to position the button. Adjust the width as needed */
+.container.browse_venues {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container.browse_venues img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container.browse_venues .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container.browse_venues .btn:hover {
+    color: black;
+  }
+
+
+  footer {
+    background-image: url('media/Website-assets-13.png');
+  }
