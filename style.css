@@ -17,15 +17,6 @@ li a:hover{
     text-decoration: underline;
 }
 
-/* nav pills colour */
-/* .nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background-color: red !important;
-} */
-
-/* #creatives-tab, #venues-tab {
-    background-color: red;
-    color: white;
-} */
 
 #creatives-tab, #venues-tab  {
     background-color: white !important;
@@ -58,7 +49,9 @@ li a:hover{
     font-weight: 600;
 }
 
-/* buttons */
+/* -------- BUTTONS ------------ */
+/*   BROWSE VENUES BUTTON */
+
 /* Container needed to position the button. Adjust the width as needed */
 .container.browse_venues {
     position: relative;
@@ -80,7 +73,6 @@ li a:hover{
     -ms-transform: translate(-50%, -50%);
     background-color: none;
     color: white;
-    font-size: 20px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -90,7 +82,6 @@ li a:hover{
   .container.browse_venues .btn:hover {
     color: black;
   }
-
 
   footer {
     background-image: url('media/Website-assets-13.png');
