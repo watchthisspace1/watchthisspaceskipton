@@ -17,13 +17,13 @@ li a:hover{
 }
 
 
-#creatives-tab, #venues-tab  {
+#creatives-tab, #venues-tab {
     background-color: white !important;
-    color: grey;
+    color: rgb(97, 183, 255) !important;
 }
-.active#creatives-tab, .active#venues-tab {
-    background-color: grey !important;
-    color: white;
+.active#creatives-tab, .active#venues-tab, .submit-form  {
+    background-color: rgb(97, 183, 255)!important;
+    color: white !important;
 }
 
 /* colours */
