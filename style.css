@@ -87,7 +87,42 @@ li a:hover{
     color: black;
   }
 
+  /* Spaces buttons  */
 
+  .spaces_buttons {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .spaces_buttons img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .spaces_buttons .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: none;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .spaces_buttons .btn:hover {
+    color: black;
+  }
+
+  /* contact buttons */
+  /* .nav-link, .submit-form {
+    background-image: url("media/Website-assets-13.png") !important;
+  } */
   /*--------   Gallery ------------*/
 
   div.gallery {
@@ -115,6 +150,7 @@ li a:hover{
   /*---------  Media Queries   -----------*/
 
 
+  /* banner images */
   @media only screen and (max-width: 768px) {
     .banner-image {
       height: 10rem;
@@ -123,5 +159,12 @@ li a:hover{
   @media only screen and (min-width: 769px) and (max-width: 992px) {
     .banner-image {
       height: 17rem;
+    }
+  }
+
+  /* spaces */
+  @media only screen and (max-width: 768px) {
+    .spaces {
+      
     }
   }
