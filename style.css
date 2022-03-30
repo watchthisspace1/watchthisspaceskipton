@@ -49,6 +49,10 @@ li a:hover{
     color: rgb(122, 226, 138);
 }
 
+.black {
+  color: black;
+}
+
 .bold {
     font-weight: 600;
 }
@@ -146,6 +150,13 @@ li a:hover{
     text-align: center;
   }
 
+
+  /*--------- Contact Form   -----------*/
+
+  .contact-form {
+    font-size: 20px;
+    
+  }
 
   /*---------  Media Queries   -----------*/
 

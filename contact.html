@@ -48,14 +48,72 @@
   <img class="banner-image" src="media/Website-assets-01.png" alt="watch this space gif" >
 </div>
     <div class="container pt-4">
-      <div class="row py-4">
+      <div class="row py-5">
           <div class="col-8 offset-2">
-              <h2 class='py-4 text-center blue'>Get In Touch</h2>
-              <h4 class="py-4 text-center">Please let us know if you are a venue or a creative by selecting below:</h4>
+              <h1 class='py-4 text-center'>Get In Touch</h1>
+              <h4 class="py-4 mx-5 text-center blue">Please fill in the contact form below, we will get back to you as soon as we can!</h4>
           </div>
       </div>
   </div>
-  <div class="container pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <form id="contactForm" class="contact-form" onsubmit="return sendMail(this);">
+          <div class="form-group blue">
+            <div class="row py-3">
+              <div class="form-check form-check-inline col-3 mx-auto">
+                <input class="form-check-input" type="radio" name="customerType" id="venue" value="Venue" checked>
+                <label class="form-check-label" for="venue">
+                 I have a venue
+                </label>
+              </div>
+              <div class="form-check form-check-inline col-3 mx-auto">
+                <input class="form-check-input" type="radio" name="customerType" id="creative" value="Creative">
+                <label class="form-check-label" for="creative">
+                  I am a creative
+                </label>
+              </div>
+              <!-- <div class="form-check form-check-inline col-3 mx-auto">
+                <input name="customerType" class="form-check-input" type="checkbox" id="venue" value="Venue">
+                <label class="form-check-label" for="venue">I have a venue</label>
+              </div>
+              <div class="form-check form-check-inline col-3 mx-auto">
+                <input name="customerType" class="form-check-input" type="checkbox" id="creative" value="Creative">
+                <label class="form-check-label" for="creative">I am a creative</label>
+              </div> -->
+            </div>
+            <div class="row py-3">
+              <div class="col">
+                <input name="first_name" id="first_name" type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input name="surname" id="surname" type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="py-3">
+              <label for="from_email">Email address</label>
+              <input name="from_email" type="email" class="form-control" id="from_email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text blue">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group pt-3 pb-0">
+              <label for="message">Please leave a message</label>
+              <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+            </div>
+            <div class="container browse_venues py-4">
+              <div class="row">
+                <img src="media/Website-assets-05.png" alt="submit">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </div>
+            <!-- <div class="div pt-3 pb-5">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container pb-5">
     <div class="row py-5">
       <div class="col-8 offset-2">
       <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
@@ -108,7 +166,7 @@
       </div>
     </div>
     </div>
-  </div>
+  </div> -->
   <div class="container-fluid px-0">
     <img class="banner-image" src="media/Website-assets-13.png" alt="watch this space gif" >
 </div>
