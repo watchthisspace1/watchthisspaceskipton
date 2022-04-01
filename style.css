@@ -1,19 +1,40 @@
 @font-face {
-    font-family: Acumin Pro;
-    src: url('media/FontsFree-Net-aa2woff2.ttf');
+    font-family: Acumin Pro Light;
+    src: url('media/FontsFree-Net-Acumin-Pro-Light.ttf');
   }
 
-body {
+@font-face {
+    font-family: Acumin Pro Bold;
+    src: url('media/Acumin-BdPro.otf');
+  }
+
+/* body {
     font-family: Acumin Pro, sans-serif;
     font-weight: 200 !important;
+} */
+
+body {
+  font-family: Acumin Pro Light, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Acumin Pro Bold, sans-serif;
+}
+
+p {
+  font-size: 22px;
 }
 
 nav, .navbar-brand{
     font-size: x-large;
 }
 
-li a:hover{
-    text-decoration: underline;
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color:  rgb(255, 171, 95) !important;
 }
 
 
@@ -123,10 +144,9 @@ li a:hover{
     color: black;
   }
 
-  /* contact buttons */
-  /* .nav-link, .submit-form {
-    background-image: url("media/Website-assets-13.png") !important;
-  } */
+  .bullet-point {
+    background-image: url("media/Branding-13.png");
+  }
   /*--------   Gallery ------------*/
 
   div.gallery {

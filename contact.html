@@ -51,7 +51,7 @@
       <div class="row py-5">
           <div class="col-8 offset-2">
               <h1 class='py-4 text-center'>Get In Touch</h1>
-              <h4 class="py-4 mx-5 text-center blue">Please fill in the contact form below, we will get back to you as soon as we can!</h4>
+              <p class="py-4 mx-5 text-center">Please fill in the contact form below, we will get back to you as soon as we can!</p>
           </div>
       </div>
   </div>
@@ -59,7 +59,7 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <form id="contactForm" class="contact-form" onsubmit="return sendMail(this);">
-          <div class="form-group blue">
+          <div class="form-group ">
             <div class="row py-3">
               <div class="form-check form-check-inline col-3 mx-auto">
                 <input class="form-check-input" type="radio" name="customerType" id="venue" value="Venue" checked>
@@ -73,14 +73,6 @@
                   I am a creative
                 </label>
               </div>
-              <!-- <div class="form-check form-check-inline col-3 mx-auto">
-                <input name="customerType" class="form-check-input" type="checkbox" id="venue" value="Venue">
-                <label class="form-check-label" for="venue">I have a venue</label>
-              </div>
-              <div class="form-check form-check-inline col-3 mx-auto">
-                <input name="customerType" class="form-check-input" type="checkbox" id="creative" value="Creative">
-                <label class="form-check-label" for="creative">I am a creative</label>
-              </div> -->
             </div>
             <div class="row py-3">
               <div class="col">
@@ -93,7 +85,7 @@
             <div class="py-3">
               <label for="from_email">Email address</label>
               <input name="from_email" type="email" class="form-control" id="from_email" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text blue">We'll never share your email with anyone else.</small>
+              <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group pt-3 pb-0">
               <label for="message">Please leave a message</label>
@@ -105,68 +97,11 @@
                 <button type="submit" class="btn">Submit</button>
               </div>
             </div>
-            <!-- <div class="div pt-3 pb-5">
-              <button type="submit" class="btn btn-secondary">Submit</button>
-            </div> -->
           </div>
         </form>
       </div>
     </div>
   </div>
-  <!-- <div class="container pb-5">
-    <div class="row py-5">
-      <div class="col-8 offset-2">
-      <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
-        <li class="px-1 nav-item" role="presentation">
-          <button class="nav-link active" id="venues-tab" data-bs-toggle="tab" data-bs-target="#venues" type="button" role="tab" aria-controls="venues" aria-selected="true"><i class="fa-solid fa-shop"></i>  I Have A Venue </button>
-        </li>
-        <li class="px-1 nav-item" role="presentation">
-          <button class="nav-link" id="creatives-tab" data-bs-toggle="tab" data-bs-target="#creatives" type="button" role="tab" aria-controls="creatives" aria-selected="false"><i class="fa-solid fa-masks-theater"></i> I Am A Creative</button>
-        </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <form onsubmit="return sendMail(this);">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="emailaddress" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <input type="text" value="venues" hidden>
-            <button type="submit" class="btn btn-secondary submit-form">Submit</button>
-          </form>
-        </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <form onsubmit="return sendMail(this);">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="emailaddress" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <input type="text" value="creatives" hidden>
-            <button type="submit" class="form-submit btn btn-secondary submit-form">Submit</button>
-         
-          </form>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div> -->
   <div class="container-fluid px-0">
     <img class="banner-image" src="media/Website-assets-13.png" alt="watch this space gif" >
 </div>
