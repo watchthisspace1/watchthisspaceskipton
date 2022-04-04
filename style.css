@@ -144,9 +144,6 @@ nav, .navbar-brand{
     color: black;
   }
 
-  .bullet-point {
-    background-image: url("media/Branding-13.png");
-  }
   /*--------   Gallery ------------*/
 
   div.gallery {
@@ -173,9 +170,9 @@ nav, .navbar-brand{
 
   /*--------- Contact Form   -----------*/
 
-  .contact-form {
+  #contactForm {
     font-size: 20px;
-    
+    font-weight: bold;
   }
 
   /*---------  Media Queries   -----------*/
